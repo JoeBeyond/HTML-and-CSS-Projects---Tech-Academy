@@ -7,6 +7,11 @@
 	<body>
 		<main>
 		<h1>Here is somewhat that my cat looks like.</h1>
+		<h5>++++++++++++++++++++++++++++++++++++</h5>
+		<a href = "file:///C:/Users/Jacinta/Documents/GitHub/Tech-Academy-Projects/HTML-and-CSS-Projects---Tech-Academy/Assignment.html">HUB</a>
+		<h5>++++++++++++++++++++++++++++++++++++</h5>
+		<a href = "https://www.youtube.com/watch?v=bJUO1WnjXQY">Cat Lofi for your soul</a>
+		<h5>++++++++++++++++++++++++++++++++++++</h5>
 		<img src = "https://images.unsplash.com/photo-1503431128871-cd250803fa41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
 		</main>
 	</body>
