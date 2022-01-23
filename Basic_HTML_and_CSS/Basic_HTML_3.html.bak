@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
+		<style>
+		h1 {color:green;text-align:center;}
+		</style>
 		<title>Coffee</title>
 		<meta charset = "utf-8">
 	</head>
 	<body>
 		<main>
 		<font color = "brown" face = "Segoe Print" size = "3">My Favorite Coffee ground and style.</font>
-		<h3>Slow Roasted is the way to go.</h3>
+		<h1>Slow Roasted is the way to go.</h1>
 		
 		<div style = "color: brown">
-			<h3>My favorite grind is Turkish and...</h3>
+			<h2>My favorite grind is Turkish and...</h2>
 			<p>I like a little milk and brown sugar.</p>
 		</div>
+		</main>
 	</body>
 </html>
