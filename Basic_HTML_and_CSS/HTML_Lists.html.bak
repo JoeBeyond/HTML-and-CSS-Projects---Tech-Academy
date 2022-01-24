@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<title>Animals and Plants</title>
+	<meta charset="utf-8">
+	<body>
+	<h1>Animals</h1>
+		<ol>
+			<li>Albatross</li>
+			<li>Bear</li>
+			<li>Caiman</li>
+			<li>Dingo</li>
+		</ol>
+	<h1>Plants</h2>
+		<ul>
+			<li>Elderberry</li>
+			<li>Pine Tree</li>
+			<li>Seaweed</li>
+			<li>Pepper</li>
+		</ul>
+	</body>
+</html>	
