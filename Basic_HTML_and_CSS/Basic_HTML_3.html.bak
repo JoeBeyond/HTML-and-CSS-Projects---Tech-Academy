@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
-		<style>
-		h1 {color:green;text-align:right;}
-		</style>
+		<link rel = "stylesheet" type = "text/css" href = "Basic_CSS_1.css">
 		<title>Coffee</title>
 		<meta charset = "utf-8">
 	</head>
 	<body>
+		<style>
+			.My_Style{background-color:purple;color:gold;text-decoration:underline;font-weight:bold;font-size:large;}
+		</style>	
 		<main>
 		<font color = "brown" face = "Segoe Print" size = "3">My Favorite Coffee ground and style.</font>
 		<h1>Slow Roasted is the way to go.</h1>
