@@ -2,7 +2,7 @@
 <html lang = "en">
 	<head>
 		<style>
-		h1 {color:green;text-align:center;}
+		h1 {color:green;text-align:right;}
 		</style>
 		<title>Coffee</title>
 		<meta charset = "utf-8">
