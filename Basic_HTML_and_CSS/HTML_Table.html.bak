@@ -5,7 +5,7 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="CSS_Table.css">
 	<body>
-		<h1>The Adventurer</h1>
+		<h1>The Wanderer</h1>
 		<table style="width:100%">
 			<tr>
 				<th>Name</th>
