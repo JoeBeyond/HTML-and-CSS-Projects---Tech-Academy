@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+details > summary {
+  padding: 4px;
+  width: 350px;
+  background-color: #FF6347;
+  border: none;
+  box-shadow: 1px 1px 2px #F5DEB3;
+  cursor: pointer;
+}
+
+details > p {
+  background-color: #00FF7F;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #F5DEB3;
+}
+</style>
+</head>
+<body>
+
+<h1><u>BACON DEETS</u></h1>
+
+<details>
+  <summary>Bacon</summary>
+  <p>Bacon can come from a pig's belly, back or sides - essentially anywhere that has
+	an exceptionally high fat content. In the United Kingdom, back bacon is most common,
+	but Americans are more familiar with "streaky" bacon, also known as side bacon,
+	which is cut from pork belly.</p>
+</details>
+
+<article>
+<h1>What's going to happen to breakfast?</h1>
+<p>A California Judge decided this week to delay enforcement of part of a new<br>
+farm animal welfare law that critics said would cause price hikes and supply<br>
+shortages for bacon and other fresh pork products in the state<br>
+</p>
+</article>
+
+<p><b>Bacon O'Clock is <time>24/7</time></b></p>
+
+</body>
+</html>
