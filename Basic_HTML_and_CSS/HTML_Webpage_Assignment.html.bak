@@ -5,8 +5,9 @@
 	<section>
 		<head>So Wow!</head>
 		<body>
-			<p>Woooow<br>OMG</br></p>
+			<em>Woooow<br>OMG</br></em>
 			<p><span style="font-style:underlined;">Holey Moley!</span></p>
+			<link style="text/css" href="HTML_Lists.html"></link>
 			<h1>IT IS&nbsp; W.O.W. Time&#169;</h1>
 		</body>
 	</section>
