@@ -10,7 +10,7 @@
 		<header>
 			<h1 align="center"><u>Feel the wild spirit!</u></h1>
 				<nav>
-				<a href="#bodylink">Body Link</a>	|
+				<a href="#bodylink">Start from the beginning</a>	|
 				<a href="#footerlink">Contacts and Doc</a>
 				</nav>
 		<header>
@@ -19,7 +19,7 @@
 	
 	<!-- BEGIN Pictures, Video, and p -->
 	<body>
-		<h3 id="bodylink">Body Link 1</h3>
+		<h3 id="bodylink">A Quick Rant</h3>
 		<p align="right">Animals are Excellent creatures! They live in harmony with nature<br>
 						and are in touch with their insticts. We can learn a lot from just<br>
 						watching animals in their natural state in an appropriate environment<br>
