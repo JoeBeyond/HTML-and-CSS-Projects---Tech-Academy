@@ -76,5 +76,5 @@ p   {
 }
 
 .photo:hover img    {
-    transfomr:scale(1.1);
+    transform:scale(1.1);
 }
