@@ -1,4 +1,32 @@
-.effects    p     {
+.body-effects    {
+    background-color:tomato
+}
+
+.body-effects    p     {
     font-family:Arial, sans-serif;
     font-size:12px 20px;
+    color:yellow;
+}
+
+.body-effects    input[type="text"]   {
+    width:25%;
+}
+
+.body-effects    input   {
+    margin:5px;
+    border:dashed rgb(20, 120 ,90);
+    border-radius:20px;
+}
+
+.body-effects   h1      {
+    font-family:Impact, sans-serif;
+    font-weight:500;
+    color:solid black;
+}
+
+.footer-effects     h1  {
+    font-family:Impact, sans-serif;
+    font-size:16px 32px;
+    color:forestgreen;
+    text-align:center;
 }
