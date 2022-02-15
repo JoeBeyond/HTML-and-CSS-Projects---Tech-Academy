@@ -1,0 +1,147 @@
+.image1      {
+    position:center;
+    display:block;
+    width:50%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    filter:sepia(85%);
+    border-radius:50px;
+}
+
+.image2     {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    filter:opacity(20%);
+}
+
+.navbar {
+    overflow:hidden;
+    background-color:royalblue;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+.navbar a {
+    float:left;
+    display:block;
+    color:black;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+
+.navbar a:hover {
+    background:bisque;
+    color:purple;
+}
+
+.container {
+    position:relative;
+    width:50%;
+}
+
+.overlay {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:156px;
+    right:0;
+    height:100%;
+    width:50%;
+    opacity:0;
+    transition:.5s ease;
+    background-color:black;
+}
+
+.container:hover .overlay {
+    opacity:1;
+}
+
+.text {
+    color:aquamarine;
+    font-family:Impact;
+    font-size:35px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    text-align:center;
+}
+
+.main {
+    margin-top:30px;
+}
+
+
+.body-edit   {
+    background-color:black;
+}
+
+.body-edit  h3  {
+    text-align:center;
+    color:aquamarine;
+}
+
+.body-edit  table   {
+    color:aquamarine;
+    padding-bottom:5px;
+}
+
+.body-edit  th     {
+    background-color:darkcyan;
+    color:antiquewhite;
+}
+
+.row-edit-2     {
+    text-align:center;
+}
+
+.bottom-right {
+    position:absolute;
+    bottom:-50%;
+    right:16px;
+    color:palevioletred;
+  }
+
+.column {
+    float:left;
+    width:50%;
+    height:300px;
+    padding:10px;
+    color:black;
+  }
+  
+.row:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.column-header  {
+    text-align:center;
+}
+
+.top-right {
+    position:absolute;
+    z-index:1;
+    top:80%;
+    right:16px;
+    color:aliceblue;
+}
+
+.text-vid-overlay   {
+    position:relative;
+    text-align:center;
+    color:white;
+}
+
+.footer-edit    {
+    text-align:center;
+    color:aquamarine;
+    font-weight:500
+}
