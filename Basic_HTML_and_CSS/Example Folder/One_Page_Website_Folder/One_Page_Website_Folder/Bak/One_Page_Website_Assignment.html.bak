@@ -1,0 +1,55 @@
+<!-- Type of Document -->
+<!DOCTYPE html>
+<html lang="en">
+	<title>Animal and Pet Club</title>
+	<meta charset="utf-8">
+<!-- END of Type of Document -->
+
+	<!-- Header and Nav Tags -->
+	<head>
+		<header>
+			<h1 align="center"><u>Feel the wild spirit!</u></h1>
+				<nav>
+				<a href="#bodylink">Start from the beginning</a>	|
+				<a href="#footerlink">Contacts and Doc</a>
+				</nav>
+		<header>
+	</head>
+	<!-- END Head -->
+	
+	<!-- BEGIN Pictures, Video, and p -->
+	<body>
+		<h3 id="bodylink">A Quick Rant</h3>
+		<p align="right">Animals are Excellent creatures! They live in harmony with nature<br>
+						and are in touch with their insticts. We can learn a lot from just<br>
+						watching animals in their natural state in an appropriate environment<br>
+						that they feel at home in. I cannot imagine a life without animals.</p>
+		<img src="https://image.shutterstock.com/image-photo/collage-horse-other-pets-on-260nw-1805383480.jpg" alt="VarietyPets1"></img><br>
+		<p>We must learn to live in harmony with nature and animals as well, for every<br>
+			day that passes there are more people and less animals. Remember, WE are all<br>
+			excellent; people and animals are in the end, living on one planet, afterall.</p>
+		<img src="https://thumbs.dreamstime.com/b/brown-bear-other-asian-animals-isolated-white-background-61960510.jpg" width="500" height="500" align="right" alt="VarietyPets2"></img>
+		<iframe width="790" height="444" src="https://www.youtube.com/embed/JkaxUblCGz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<!-- END -->
+
+	<!-- Contact Form -->
+		<h1>Contact for you...</h1>
+		<form action="" method="get">
+			First name:<input type="text" name="First_Name"><br>
+			Last name:<input type="text" name="Last_Name"><br>
+			Email:<input type="email" name="Email"><br>
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+	<!-- END Body and Contact -->
+	
+	<!-- Footer BEGIN -->
+	<footer>
+		<h1>Contact for me.</h1>
+		<h3 id="footerlink">Somewhere in the Cosmos...</h3>
+		<p>Page Creator: Joseph Franke</p>
+		<p><a href="mailto:example@email.noice">example@email.noice</a></p>
+	</footer>
+	<!-- END Footer -->
+
+</html>

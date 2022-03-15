@@ -1,0 +1,136 @@
+<!-- Type of Document -->
+<!DOCTYPE html>
+<html lang="en">
+	<title>Animal and Pet Club</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- END of Type of Document -->
+
+	<!-- Header and Nav Tags -->
+	<head>
+		<header>
+			<h1 align="center"><u>Feel the wild spirit!</u></h1>
+				<nav>
+				<a href="#bodylink">Start from the beginning</a>	|
+				<a href="#footerlink">Contacts and Doc</a>
+				<link rel="stylesheet" href="../CSS/One_Page_Website.css">
+				</nav>
+		<header>
+	</head>
+	<!-- END Head -->
+	
+	<!-- BEGIN Pictures, Video, and p -->
+	<body class="body-effects">
+
+		<!-- Images used to open the lightbox-->
+		<div class="row">
+
+			<div class="column">
+				<img src="../Images/pexels-andy-vu-3244513.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="">
+			</div>
+
+			<div class="column">
+				<img src="../Images/pexels-francesco-ungaro-1671324.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="">
+			</div>
+
+			<div class="column">
+				<img src="../Images/pexels-roberto-nickson-2775196.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="">
+			</div>
+
+			<div class="column">
+				<img src="../Images/pexels-pixabay-371589.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="">
+			</div>
+
+		</div>
+
+		<!--The Modal Lightbox-->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+				<div class="mySlides">
+					<div class="numbertext">1 / 4</div>
+					<img src="../Images/pexels-andy-vu-3244513.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">2 / 4</div>
+					<img src="../Images/pexels-francesco-ungaro-1671324.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">3 / 4</div>
+					<img src="../Images/pexels-roberto-nickson-2775196.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">4 / 4</div>
+					<img src="../Images/pexels-pixabay-371589.jpg" style="width:100%">
+				</div>
+
+				<!--Next/Previous Controls-->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				<!--Caption text-->
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+
+				<!--Thumbnail image controls-->
+				<div class="column">
+					<img class="demo" src="../Images/pexels-andy-vu-3244513.jpg" onclick="currentSlide(1)" alt="">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="../Images/pexels-francesco-ungaro-1671324.jpg" onclick="currentSlide(2)" alt="">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="../Images/pexels-roberto-nickson-2775196.jpg" onclick="currentSlide(3)" alt="">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="../Images/pexels-pixabay-371589.jpg" onclick="currentSlide(4)" alt="">
+				</div>
+
+			</div>
+		</div>
+
+
+		<h3 id="bodylink" align="center">A Quick Rant</h3>
+		<p align="right">Animals are Excellent creatures! They live in harmony with nature<br>
+						and are in touch with their insticts. We can learn a lot from just<br>
+						watching animals in their natural state in an appropriate environment<br>
+						that they feel at home in. I cannot imagine a life without animals.</p>
+		<img src="https://image.shutterstock.com/image-photo/collage-horse-other-pets-on-260nw-1805383480.jpg" alt="VarietyPets1"></img><br>
+		<p>We must learn to live in harmony with nature and animals as well, for every<br>
+			day that passes there are more people and less animals. Remember, WE are all<br>
+			excellent; people and animals are in the end, living on one planet, afterall.</p>
+		<img src="https://thumbs.dreamstime.com/b/brown-bear-other-asian-animals-isolated-white-background-61960510.jpg" width="500" height="500" align="right" alt="VarietyPets2"></img>
+		<iframe width="790" height="444" src="https://www.youtube.com/embed/JkaxUblCGz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<!-- END -->
+
+	<!-- Contact Form -->
+		<form action="" method="get" align="center">
+			<h1>Contact for you...</h1>
+			First name:<input type="text" name="First_Name"><br>
+			Last name:<input type="text" name="Last_Name"><br>
+			Email:<input type="email" name="Email"><br>
+			<input type="submit" value="Submit">
+		</form>
+		<!-- END Body and Contact -->
+	
+		<!-- Footer BEGIN -->
+		<footer class="footer-effects">
+			<h1>Contact for me.</h1>
+			<h1 id="footerlink">Somewhere in the Cosmos...</h1>
+			<h1>Page Creator: Joseph Franke</h1>
+			<p align="center"><a href="mailto:example@email.noice">example@email.noice</a></p>
+		</footer>
+		<!-- END Footer -->
+
+		<script src="../JS/One_Page_Website.js"></script>
+
+	</body>
+</html>
